@@ -2,57 +2,67 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <meta name="viewport" content="width= device-width, initial-scale=1.0" />
     <title>My Website</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+<style>a {text-decoration: none;} </style>
   <body>
+    <div class="wrapper">
     <header>My Website</header>
-    <main>
-        <div class="row">  
-            <div class="column">
-            <aside class="primary-content">
-                <img
-                alt="picture of the golden gate bridge"
-                src="images/goldengate-blog.gif"
-                width="150"
-                height="150"
-                />
+    <main>     
+        <div class="row">
+            <div class="container">
+              <div class="container1">
+              <img
+              alt="picture of the golden gate bridge"
+              src="images/goldengate-blog.gif"
+              width="150"
+              height="150"
+              />
+            </div>
+
+            <div class="container">
+              <div class="container2">             
                 <h1>This is a Lorem Ipsum Heading</h1>
-                <p>
-                 Sed non mauris vitae erat consequat auctor eu in elit. Class aptent
-                 taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-                 himenaeos. Mauris in erat justo.
-                <a id="link" href="Read More">Read More</a>
-                </p>
-                <br />
-            </aside>
+                  <p>
+                  Sed non mauris vitae erat consequat auctor eu in elit. Class aptent
+                  taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                  himenaeos. Mauris in erat justo.
+                  <br>
+                  <br>
+                 <b><a id="link" href="Read More">Read More</a></b>
+                  </p>                           
+            </div> 
+            <span>
+            <div class="container">
+              <div class="container3">
+                <h2>Sidebar Links</h2>
+                <hr>
+                  <ul>
+                      <li><b><a id="link" href="Link 1">Link 1</a></b></li>
+                      <li><b><a id="link" href="Link 2">Link 2</a></b></li>
+                      <li><b><a id="link" href="Link 3">Link 3</a></b></li>
+                      <li><b><a id="link" href="Link 4">Link 4</a></b></li>
+                  </ul>                       
+                      <h2>Other Widgets</h2>
+                      <hr>
+                      <p>
+                    This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                    velit auctor aliquet. Aenean solicitudin, lorem quis bibendum auctor,
+                    nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                      </p>
+                      <br />
+                      <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
             </div>
-            <div class="column">
-            <aside class="secondary-content">
-            <h2>Sidebar Links</h2>
-            <ul>
-                <li><a id="link" href="Link 1">Link 1</a></li>
-                <li><a id="link" href="Link 2">Link 2</a></li>
-                <li><a id="link" href="Link 3">Link 3</a></li>
-                <li><a id="link" href="Link 4">Link 4</a></li>
-            </ul>
-            </aside>
-            </div>
-            <div class="column"></div>
-            <aside class="secondary-content">
-            <h2>Other Widgets</h2>
-            <p>
-          This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-          velit auctor aliquet. Aenean solicitudin, lorem quis bibendum auctor,
-          nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            </p>
-            <br />
-            <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
-        </aside>
         </div>
+      </span>
         </div>
+      </div>
     </main>
-    <footer>&copy; All Rights Reserved</footer>
+    <div class="push">
+    <footer class="footer">&copy; <a id="link" href="MyWebsite">MyWebsite</a>. All Rights Reserved.</footer>
+  </div>
+  </div>
   </body>
 </html>

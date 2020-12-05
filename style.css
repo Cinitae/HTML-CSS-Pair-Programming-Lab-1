@@ -1,39 +1,100 @@
 
 body {
     font-family: arial;
+    height: 100%;
+    margin: 0;
+    
+    
 }
 
 header {
     font-size: 50px;
-    background-color: darkslategrey;
-    color: rgb(243, 145, 17);
+    background-color:#333333;
+    color:#cc6633;
     padding: 20px;
 }
 
 
-footer {
+
+.footer, 
+.push {
     text-align: center;
-    background-color: darkslategrey;
+    background-color:#333333;
     color: white;
     padding: 15px;
+   
+    
 }
+.wrapper {
+    min-height: 100%;
+    width:100%;
+    margin:0 auto;
+    margin-bottom: -15px;
+}
+
 
 /* Hyperlink attributes------------*/
 #link {
-    color:rgb(243, 145, 17);
+    color:#cc6633;
+    
+    
+}
+
+
 }
 /* Floated Columns ----------------*/
 
-.column {
-    float: left;
+
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    margin-left:15px;
+  }
+  
+  .contaner1 {
+    flex-grow: 1;
+    height: 100%;
+    width:15%;
+    
+  }
+
+  .contaner2 {
+    flex-grow: 1;
+    height: 100%;
     width: 50%;
   }
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    /*display: table;*/
-    clear: both;
+  .contaner3 {
+    flex-grow: 1;
+    height: 100%;
+    width: 35%;
+    
+  }
+
+  .container1 + .container2 + .container3 {
+    margin-left: 2%;
+    
   }
 
 
+  ul{
+    position:relative;
+    display: inline-block;  
+    list-style: none;
+    width:100%;
+    text-align: left;
+    margin: auto;
+    padding: 0;
+  }
+
+  span {
+background-color: #cccccc;
+
+  }
